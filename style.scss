@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: lato;
+}
+
+.container {
+  align-content: center;
+  margin-left: 250px;
+  border: 5px solid;
+  border-color: brown;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1frr 1fr;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.row_one{
+  .new_game{
+    position: absolute;
+    left: 690px;
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .text{
+    display: inline-block;
+  }
+}
+
+.first_player{
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 25px;
+
+  .red-color{
+    color: red;
+  }
+  #first-game{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+  }
+}
+
+.second_player{
+  margin-top: 150px;
+  margin-left: 200px;
+  font-size: 25px;
+  #second-game{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+
+  }
+
+    .red-color{
+      color: red;
+}
+}
+
+.dice_container{
+  position: relative;
+  left: 326px;
+  margin-bottom: 50px;
+  bottom: 50px;
+  margin-top: 50px;
+  .dice{
+    position: absolute;
+    visibility: hidden;
+}}
+
+.current{
+  margin-left: 100px;
+  margin-top: 150px;
+  background-color: red;
+ width: 60px;
+ height: 60px;
+ text-align: center;
+}
+
+.current-two{
+  margin-left: 200px;
+ margin-top: 150px;
+ background-color: red;
+ width: 60px;
+ height: 60px;
+ text-align: center;
+}
+
+.roll{
+  margin-bottom: 10px;
+  margin-top: -60px;
+  position: relative;
+ right: 25px;
+ margin-bottom: 10px;
+ cursor: pointer;
+ 
+}
+
+.hold{
+  margin-top: 10px;
+  position: relative;
+ right: 25px;
+ margin-bottom: 40px;
+ cursor: pointer;
+ 
+}
+
+.row_one{
+  background-color: #F2F2F2;
+}
+
+.red{
+  cursor: pointer;
+    filter: opacity(0.4) drop-shadow(0 0 0 red); 
+}
+
+.score{
+  color: white;
+}
